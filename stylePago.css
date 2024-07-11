@@ -1,0 +1,209 @@
+html{
+    font-family: 'Trebuchet MS', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fffbe5;
+}
+
+header{
+    border-bottom: 2px solid #fed4d5;
+    text-align: center;
+}
+
+.content{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 5px 15px ;
+    border-radius: 10px;
+    transition: 0.3s;
+    background-color: #fffbe5;
+}
+
+.containerProds{
+    background-color: #fffbe5;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 50px;
+    height: 100%;
+    width: 100;
+    min-height: 700px;
+    min-width: 400px;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.divLeft{
+    min-width: 200px;
+    margin-left: 100px;
+}
+
+.divRight{
+    width: 38vw;
+    height: 70vh;
+    margin-left: 70px;
+    min-width: 200px;
+    margin-top: 28px;
+}
+
+.products{
+    background-color:  #fed4d5;
+    display: flex;
+    height: 27vh;
+    width: 44vw;
+    min-height: 250px;
+    min-width: 300px;
+    margin-top: 50px;
+    margin-left: 25px;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.delivery{
+    background-color: #fed4d5;
+    display: flex;
+    align-items: center;
+    height: 27vh;
+    width: 44vw;
+    min-height: 250px;
+    min-width: 300px;
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.payment{
+    background-color: #fed4d5;
+    display: table;
+    margin: auto;
+    margin-top: 20px;
+    height: 45vh;
+    width: 30vw;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#noItem{
+    margin: 25px;
+    width: 150px;
+    margin-left: 60px;
+}
+
+#textItem{
+    margin-left: 20px;
+}
+
+#waypoint{
+    margin: 35px;
+    width: 200px;
+}
+
+#textLocation{
+    margin-right: 30px;
+}
+
+#divForm{
+    border-bottom: 1px solid black;
+    margin: 10px 20px;
+    width: 500px;
+}
+
+#divPrices{
+    border-bottom: 1px solid black;
+    margin: 10px 20px;
+    display: flex;
+    width: 500px;
+}
+
+#formDisc{
+    margin: 15px;
+}
+
+#formDisc input{
+    background-color: #fffbe5;
+}
+
+#subtotal{
+    text-align: left;
+    margin: 8px 50px;
+}
+
+#pricesub{
+    text-align: right;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    margin-left: 185px;
+}
+
+#pricestot{
+    text-align: right;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    margin-left: 210px;
+}
+
+#cardInfo{
+    margin: 5px 30px;
+    display: flex;
+}
+
+#cardInfo input{
+    background-color: #fffbe5;
+}
+
+#organizeCardInfo{
+    display: table;
+}
+
+#leftCardInfo{
+    text-align: left;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    margin-left: 20px;
+}
+
+#RightCardInfo{
+    text-align: right;
+    margin-top: 4px;
+    margin-left: 100px;
+}
+
+#button{
+    margin:5px;
+    background-color: #fffbe5;
+}
+
+.threeBythree {
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: 50px 50px 50px;
+    
+}
+
+.box {
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#pagos{
+    display: flex;
+    align-items: center;
+    margin-left: 12px;
+}
+
+#pagoLeft{
+    margin-top: 2px;
+    margin-left: 2px;
+}
+
+#imgLogo{
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}

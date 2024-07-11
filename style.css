@@ -1,0 +1,366 @@
+
+body{
+    font-family: Arial, Helvetica;
+    background: "white";
+    margin: 0;
+    padding: 0;
+    background-color: #fffbe5 !important;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+header{
+    border-bottom: 2px solid #fed4d5;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+}
+
+#options{
+    display: flex;
+    padding-top: 20px;
+    background: #c88e9a;
+    font-family: cambria;
+    justify-content: space-evenly;
+}
+
+.h1{
+    text-align: center;
+}
+
+.menu{
+    padding: 0;
+    background: #c88e9a;
+    font-family: cambria;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #fffde6;
+    padding: 15px;
+    display:block;
+    width: auto;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+    margin: 10px
+}
+
+.menu li a:hover{
+    background: #fed4d5;
+    border-radius: 20px;
+}
+
+div.foto{
+    width: 350px
+}
+
+div.galeria{
+    margin: 50px 100px;
+    float: left;
+    min-width: 350px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+div.galeria img{
+    width: 350px;
+    height: 410px;
+}
+
+.fixed{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+#Whatsapp{
+    margin: 20px;
+    margin-left: 1300px;
+    width: 90px;
+    height: 90px;
+}
+
+div.pie{
+    text-align: center;
+    font-family:Cambria ;
+    color: #e8e8e8;
+    padding: 10px;
+    background-color: #c88e9a;
+    height: 75px;
+    margin-top: 2px;
+}
+
+.pie p{
+    margin: 5px;
+}
+
+.galeria:hover{
+    background-color: #dca0aa;
+}
+
+
+#Principal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+    margin: auto;
+}
+
+.imgLogo{
+    border-radius: 50%;
+    margin: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.pago{
+    padding: 0;
+    background: #c88e9a;
+    font-family: cambria;
+}
+
+.pago li a{
+    text-decoration: none;
+    color: #fffde6;
+    display:block;
+    width: auto;
+}
+
+.pago li{
+    display: inline-block;
+    text-align: center;
+    margin: 10px
+}
+
+.pago li a:hover{
+    background: #fed4d5;
+    border-radius: 20px;
+}
+
+#cart{
+    width: 50px;
+    height: 50px;
+}
+
+.search{
+    padding: 0;
+    background: #c88e9a;
+    font-family: cambria;
+}
+
+.search li a{
+    text-decoration: none;
+    color: #fffde6;
+    display:block;
+    width: auto;
+}
+
+.search li{
+    display: inline-block;
+    text-align: center;
+    margin: 10px
+}
+
+.search li a:hover{
+    background: #fed4d5;
+    border-radius: 20px;
+}
+
+#magGlass{
+    width: 50px;
+    height: 50px;
+}
+
+#myCarousel{
+    width: 100%;
+    height: 30rem;
+    background-color: #fde6e6;
+    padding-top: 10px;
+}
+
+.carousel-item{
+    height: 30rem;
+    position: relative;
+}
+
+.container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+.imgCarousel{
+    width: 100%;
+}
+
+.itemInformation{
+    background-color: #fffbe5 !important;
+    width: 100%; /* Adjust the width as per your requirements */
+    max-width: 1000px; /* Set a maximum width if needed */
+}
+
+.itemInformationContent{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+#modalBody{
+    margin-left: 20px;
+}
+
+.imgModal{
+    width: 60%;
+}
+
+#modalText{
+    width: 150px;
+    margin-left: 20px;
+}
+
+#sizesContainer div.size{
+    display: inline-block;
+    margin: 5px;
+}
+
+.size{
+    
+    padding: 5px 11px;
+    width: 40px;
+    height: 40px;
+    border-style: solid;
+    border-color: black;
+}
+
+.informationClothe{
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    cursor: pointer;
+    
+}
+
+#shopNow{
+    width: 150px;
+    height: 30px;
+    background-color: #c88e9a;
+    margin-left: 640px;
+    margin-top: 380px;
+}
+
+#shopNow a{
+    color: #fffbe5 !important;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    z-index: 1; /* Ensure the overlay appears above the image */
+}
+
+#btnModal{
+    background-color: #c88e9a;
+    border-radius: 20px;
+}
+
+@media (max-width: 600px) {
+
+    #options{
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+        background: #c88e9a;
+        font-family: cambria;
+        flex-wrap: wrap;
+    }
+
+    #myCarousel{
+        width: 100%;
+        height: 14em;
+        background-color: #fde6e6;
+        padding-top: 10px;
+    }
+    
+    .carousel-item{
+        height: 15em;
+        position: relative;
+    }
+
+    #shopNow {
+        width: 100px;
+        height: 20px;
+        background-color: #c88e9a;
+        margin-left: 200px;
+        margin-top: 240px;
+        font-size: 15px;
+    }
+
+    .pago li{
+        display: inline-block;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .menu{
+        padding: 0;
+        background: #c88e9a;
+        margin-left: 0px;
+        font-family: cambria;
+    }
+
+    .menu li{
+        display: inline-block;
+        text-align: center;
+        margin-right: 0px;
+    
+    }
+
+    div.galeria{
+        margin: 50px 40px;
+        float: left;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+        width: 150px;
+        height: 210px;
+        min-width: 0px;
+    }
+
+    div.foto{
+        width: 0;
+    }
+    
+    div.galeria img{
+        width: 150px;
+        height: 210px;
+    }
+
+    div.pie {
+        text-align: center;
+        font-family: Cambria;
+        color: #e8e8e8;
+        padding: 10px;
+        background-color: #c88e9a;
+        font-size: 12px;
+        height: 75px;
+        margin-top: 2px;
+        
+    }
+
+}

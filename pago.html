@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pago I&M</title>
+    <link rel="stylesheet" href="stylePago.css">
+    <script src="functions.js"></script>
+    <head>
+        <body>
+            <main>
+                <header>
+                    <img id="imgLogo" class="logo" src="Ings/logo rosa.jpeg" height="120px" width="130px">
+                </header>
+
+                <div class="containerProds">
+                    <div class="divLeft">
+                        <div class="products">
+                            <div>
+                                <img id="noItem" src="Ings/cartblack.png" alt="">
+                            </div>
+                            <div id="textItem">
+                                <h2>There are no items in the cart!</h2>
+                                <h3>Start looking for items to buy</h3>
+                                <a href="inicio.html" class="content">Buy!</a>
+                            </div>
+                        </div>
+                        <div class="delivery">
+                            <div>
+                                <img id="waypoint" src="Ings/map.webp" alt="">
+                            </div>
+                            <div id="textLocation">
+                                <h2>In order to register a location, you need items in your cart.</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="divRight">
+                        <div class="payment">
+                            <div id="divForm">
+                                <form id="formDisc">
+                                    <label for="fname">Discount code:</label><br>
+                                    <input type="text" id="DiscText" name="fname" value="">
+                                    <input onclick="Discount()" type="submit" value="Submit">
+                                  </form>
+                            </div>
+                            <div id="divPrices">
+                                <div>
+                                    <h4 id="subtotal">Subtotal</h4>
+                                </div>
+                                <div>
+                                    <h4 id="pricesub"> $######### </h4>
+                                </div>
+                            </div>
+                            <div id="divPrices">
+                                <div>
+                                    <h4 id="subtotal">Total:</h4>
+                                </div>
+                                <div>
+                                    <h4 id="pricestot"> $######### </h4>
+                                </div>
+                            </div>
+                            <div id="divForm">
+                                <div id="organizeCardInfo">
+                                    <div>
+                                        <form id="cardInfo">
+                                            <div id="leftCardInfo">
+                                                <label for="fname">Card Number:</label><br>
+                                                <input type="text" id="fname" name="fname" value=""><br>
+                                                <label for="fname">Expiration date:</label><br>
+                                                <input type="text" id="fname" name="fname" value=""><br>
+                                            </div>
+                                            <div id="RightCardInfo">
+                                                <label for="fname">CCV:</label><br>
+                                                <input type="password" id="fname" name="fname" value=""><br>
+                                                <label for="fname">Name of holder:</label><br>
+                                                <input type="text" id="fname" name="fname" value=""><br>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div>
+                                        <input onclick="Card()" id="button" type="submit" value="Submit">
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="pagos">
+                                <div id="pagoLeft">
+                                    <p>Aceptamos:</p>
+                                </div>
+                                <div id="pagoRight">
+                                    <div class="threeBythree">
+                                        <div class="box"><img src="Ings/-mastercard_86833.png" alt="" height="50px" width="50px" ></div>
+                                        <div class="box"><img src="Ings/196578.png" alt="" height="50px" width="50px"></div>
+                                        <div class="box"><img src="Ings/pse.png" alt="" height="40px" width="40px"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        </body>
+    </head>
+
+</html>
